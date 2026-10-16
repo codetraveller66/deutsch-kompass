@@ -1,0 +1,8 @@
+{
+  "name": "deutsch-kompass",
+  "version": "1.0.0",
+  "private": true,
+  "description": "独立运行的德语学习工作台，DW 主线与 90 天 B1 计划",
+  "scripts": { "build": "node scripts/build-data.mjs", "test": "node --test tests/core.test.mjs", "start": "node scripts/serve.mjs" },
+  "engines": { "node": ">=20" }
+}
